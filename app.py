@@ -190,7 +190,7 @@ class ConfigDownloader:
                     logging.error(f"Error in thread execution: {e}")
 
 if __name__ == "__main__":
-    storage_handler = FileStorageHandler('configs.txt')
+    storage_handler = FileStorageHandler('v2ray.txt')
     parser_registry = ParserRegistry()
     parser_registry.register_parser('shadowsocks', ShadowsocksParser())
     parser_registry.register_parser('vmess', VmessParser())
