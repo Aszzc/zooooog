@@ -1,4 +1,4 @@
-name: Run every 6 hours
+name: Run every 24 hours
 
 on:
   schedule:
@@ -34,6 +34,6 @@ jobs:
 
       - name: Commit and push generated files
         run: |
-          git add clash.yaml v2ray.txt  # Add your generated files
+          git add v2ray.txt  # Add your generated files
           git commit -m "Update generated config files" || echo "No changes to commit"
           git push origin HEAD  # Push the changes to the same branch
