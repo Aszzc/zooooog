@@ -166,3 +166,15 @@ vless://73E70558-3AE4-427C-B728-6CE0642486D3@de-xr.zvnet.info:443?security=tls&t
 vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@uk2-xr.zvnet.info:443?security=tls&type=ws&sni=uk2-xr.zvnet.info&path=/700gvl#IS - Reykjavik
 vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@tw-xr.zvnet.info:443?security=tls&type=ws&sni=tw-xr.zvnet.info&path=/700gvl#TW - Taipei
 vless://E25D7440-C91C-4C7A-A234-DCE8D834734D@fr-xr.zgoo.net:443?security=tls&type=ws&sni=fr-xr.zgoo.net&path=/700gvl#US - Washington
+ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@57.129.54.168:443#GR - Athens
+vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@jp-xr.zvnet.info:443?security=tls&type=ws&sni=jp-xr.zvnet.info&path=/700gvl#NZ - Auckland
+vless://73E70558-3AE4-427C-B728-6CE0642486D3@de-xr.zvnet.info:443?security=tls&type=grpc&sni=de-xr.zvnet.info&path=#DE - Frankfurt 1
+vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@sg-xr.zvnet.info:443?security=tls&type=ws&sni=sg-xr.zvnet.info&path=/700gvl#VN - Ho Chi Minh
+ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@172.104.178.111:443#JP - Tokyo 1
+ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@45.56.100.165:443#CA - Vancouver
+vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@de-xr.zvnet.info:443?security=tls&type=ws&sni=de-xr.zvnet.info&path=/700gvl#SE - Stockholm
+vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@us-xr.zvnet.info:443?security=tls&type=ws&sni=us-xr.zvnet.info&path=/700gvl#US - Dallas 2
+ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@45.79.123.203:443#PK - Karachi
+vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@uk2-xr.zvnet.info:443?security=tls&type=ws&sni=uk2-xr.zvnet.info&path=/700gvl#IS - Reykjavik
+vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@tw-xr.zvnet.info:443?security=tls&type=ws&sni=tw-xr.zvnet.info&path=/700gvl#TW - Taipei
+vless://E25D7440-C91C-4C7A-A234-DCE8D834734D@fr-xr.zgoo.net:443?security=tls&type=ws&sni=fr-xr.zgoo.net&path=/700gvl#US - Washington
