@@ -150,8 +150,9 @@ class ConfigDownloader:
     def fetch_and_save_config(self, config_name, flag):
         # if not any(a in config_name for a in ['wireguard','ssr','vr','vms','xr']):
         if not any(a in config_name for a in ['ssr','vr']):
-            return 
-        if not any(a in config_name for a in ['us','hk']):
+            return
+            
+        if not any(a in config_name for a in ['us.','hk.']):
             return
             
         """Fetches and parses a configuration, then saves it using the storage handler."""
