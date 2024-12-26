@@ -152,9 +152,8 @@ class ConfigDownloader:
         if not any(a in config_name for a in ['ssr','vr']):
             return
             
-        if not any(a in config_name for a in ['us.','hk.']):
+        if not any(a in config_name for a in ['us','hk','sg','uk']):
             return
-            
         """Fetches and parses a configuration, then saves it using the storage handler."""
         try:
             url = construct_url(self.endpoint, 'api/server_config', f"config_name={config_name}&email={self.username}&password={self.password}")
