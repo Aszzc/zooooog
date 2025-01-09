@@ -119,7 +119,8 @@ class FileStorageHandler(StorageHandler):
         self.config_list = []
 
     def save(self, data, flag):
-        self.config_list.append(f"{data}#{flag}")
+        # self.config_list.append(f"{data}#{flag}")
+        self.config_list.append(f"{data}")
 
     def finalize(self):
         unique_configs = list(set(self.config_list))
