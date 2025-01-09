@@ -121,7 +121,7 @@ class FileStorageHandler(StorageHandler):
     def save(self, data, flag):
         if data not in self.unique_configs:
             self.unique_configs.add(data)
-            with open(self.file_path, 'a') as file:
+            with open(self.file_path, 'w') as file:
                 file.write(f"{data}#{flag}\n")
 
 class ConfigDownloader:
