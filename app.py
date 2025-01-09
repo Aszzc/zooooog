@@ -116,13 +116,15 @@ class StorageHandler(ABC):
 class FileStorageHandler(StorageHandler):
     def __init__(self, file_path):
         self.file_path = file_path
-        self.unique_configs = set()
+        self.config_list = []
 
     def save(self, data, flag):
-        if data not in self.unique_configs:
-            self.unique_configs.add(data)
-            with open(self.file_path, 'w') as file:
-                file.write(f"{data}#{flag}\n")
+        self.config_list.append(f"{data}#{flag}")
+
+    def finalize(self):
+        unique_configs = list(set(self.config_list))
+        with open(self.file_path, 'w') as file:
+            file.write("\n".join(unique_configs))
 
 class ConfigDownloader:
     def __init__(self, username, password, endpoint, storage_handler, parser_registry):
@@ -148,11 +150,9 @@ class ConfigDownloader:
             return []
 
     def fetch_and_save_config(self, config_name, flag):
-        # if not any(a in config_name for a in ['wireguard','ssr','vr','vms','xr']):
-        if not any(a in config_name for a in ['ssr','vr']):
+        if not any(a in config_name for a in ['ssr', 'vr']):
             return
-            
-        if not any(a in config_name for a in ['us','hk','sg','uk']):
+        if not any(a in config_name for a in ['us', 'hk', 'sg', 'uk']):
             return
         """Fetches and parses a configuration, then saves it using the storage handler."""
         try:
@@ -174,7 +174,6 @@ class ConfigDownloader:
             parsed_data = self.parser_registry.parse(protocol, data)
             if parsed_data:
                 self.storage_handler.save(parsed_data, flag)
-            return
         except requests.RequestException as e:
             logging.error(f"Error fetching config {config_name}: {e}")
 
@@ -208,3 +207,4 @@ if __name__ == "__main__":
         parser_registry=parser_registry
     )
     downloader.download_configs_multithreaded()
+    storage_handler.finalize()
