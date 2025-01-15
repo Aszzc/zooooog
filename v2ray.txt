@@ -1,8 +1,8 @@
+vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@us-xr.zvnet.info:443?security=tls&type=ws&sni=us-xr.zvnet.info&path=/700gvl
+vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@sg-xr.zvnet.info:443?security=tls&type=ws&sni=sg-xr.zvnet.info&path=/700gvl
+ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@57.129.54.168:443
 vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@tw-xr.zvnet.info:443?security=tls&type=ws&sni=tw-xr.zvnet.info&path=/700gvl
 vless://E25D7440-C91C-4C7A-A234-DCE8D834734D@fr-xr.zgoo.net:443?security=tls&type=ws&sni=fr-xr.zgoo.net&path=/700gvl
-vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@sg-xr.zvnet.info:443?security=tls&type=ws&sni=sg-xr.zvnet.info&path=/700gvl
 ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@172.104.178.111:443
-ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@45.56.100.165:443
-ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@57.129.54.168:443
 vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@uk2-xr.zvnet.info:443?security=tls&type=ws&sni=uk2-xr.zvnet.info&path=/700gvl
-vless://D53C8C5D-01E5-4529-A55F-53FD71B68A45@us-xr.zvnet.info:443?security=tls&type=ws&sni=us-xr.zvnet.info&path=/700gvl
+ss://YWVzLTI1Ni1jZmI6MUJCOEYxNDYtMDE4NS00NDg4LTg2MEEtM0UwRjAyRTNGMzc4@45.56.100.165:443
